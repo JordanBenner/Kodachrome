@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}
+{{blog.name}}
+{% endblock %}
+
+{% block content %}
+<h1>{{ question.question_text }}</h1>
+
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>
+      <a href="./vote/{{ choice.id }}/">
+        {{ choice.answer }} -- {{ choice.votes }} vote{{ choice.votes|pluralize }}
+      </a>
+    </li>
+{% endfor %}
+
+</ul>
+
+<a href="{% url 'poll' question.slug %}">Vote again?</a>
+
+{% endblock %}
+s
