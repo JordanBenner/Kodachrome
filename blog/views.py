@@ -38,4 +38,4 @@ def vote(request, question_slug, choice_id):
     choice = Choice.objects.get(id=choice_id)
     choice.votes += 1
     choice.save()
-    return http.HttpResponseRedirect('.. / .. /)
+    return http.HttpResponseRedirect('.. / .. /')
