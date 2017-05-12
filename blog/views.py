@@ -10,6 +10,10 @@ from blog.models import Blog, Post, Poll, Choice
 def blog_index(request, blog_slug):
     blog = get_object_or_404(Blog, slug=blog_slug)
     posts = Post.objects.filter(blog=blog)
+    # view substitute
+    tag = request.GET.get('tag', '')
+    if tag:
+        posts = posts.filter(tag__slug=tag)
 
     context = {
         'blog': blog,
@@ -38,4 +42,17 @@ def vote(request, question_slug, choice_id):
     choice = Choice.objects.get(id=choice_id)
     choice.votes += 1
     choice.save()
-    return http.HttpResponseRedirect('.. / .. /')
+    return http.HttpResponseRedirect('../../')
+
+
+def poll_index(request):
+    polls = Poll.objects.all()
+    category = request.GET.get('category', '')
+    if category:
+        polls = polls.filter(categories__slug=category)
+        print(polls.count())
+
+    context = {
+        'polls': polls,
+    }
+    return TemplateResponse(request, 'poll.html', context)

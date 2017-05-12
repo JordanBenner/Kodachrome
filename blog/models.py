@@ -11,6 +11,14 @@ class Blog(models.Model):
         return self.name
 
 
+class Tag(models.Model):
+    name = models.CharField(max_length=50)
+    slug = models.SlugField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Post(models.Model):
     title = models.CharField(max_length=50)
     subtitle = models.CharField(max_length=140,
@@ -21,6 +29,12 @@ class Post(models.Model):
     blog = models.ForeignKey(Blog)
     author = models.ForeignKey(settings.AUTH_USER_MODEL)
 
+    tag = models.ManyToManyField(Tag)
+    # tags = models.TextField()
+    #
+    # def tag_list (self):
+    #     return self.tags.split(', ')
+
     def __str__(self):
         return self.title
 
@@ -28,9 +42,18 @@ class Post(models.Model):
         ordering = ['-created']
 
 
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+    slug = models.SlugField(max_length=50, unique=True)
+
+    def __str__(self):
+        return self.name
+
+
 class Poll(models.Model):
     question = models.CharField(max_length=50)
     slug = models.SlugField(max_length=50, unique=True)
+    categories = models.ManyToManyField(Category)
 
     def __str__(self):
         return self.question

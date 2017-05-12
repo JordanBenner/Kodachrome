@@ -24,5 +24,6 @@ urlpatterns = [
 
     url(r'^poll/(\S+)/vote/(\d+)/$', blog.views.vote, name="vote"),
     url(r'^poll/(\S+)/$', blog.views.results, name="poll"),
+    url(r'^poll/$', blog.views.poll_index, name="poll_index"),
 
 ]

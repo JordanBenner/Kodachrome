@@ -16,8 +16,16 @@
 {% endfor %}
 
 </ul>
+<hr />
+<h2>Poll Categories</h2>
+<ul>
+  {% for c in question.categories.all %}
+  <li>
+    <a href="/poll/?category={{ c.slug }}">{{ c.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
 
 <a href="{% url 'poll' question.slug %}">Vote again?</a>
 
 {% endblock %}
-s
