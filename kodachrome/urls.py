@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 import blog.views
+import homepage.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -25,5 +26,7 @@ urlpatterns = [
     url(r'^poll/(\S+)/vote/(\d+)/$', blog.views.vote, name="vote"),
     url(r'^poll/(\S+)/$', blog.views.results, name="poll"),
     url(r'^poll/$', blog.views.poll_index, name="poll_index"),
+    url(r'^$', homepage.views.homepage, name='homepage'),
+    url(r'^favicon.ico$', homepage.views.favicon),
 
 ]
