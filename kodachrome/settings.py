@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'kodachrome.jordan-benner.com',
+    'www.erzsebetkodachrome.com',
     'localhost',
 ]
 
