@@ -25,7 +25,9 @@ SECRET_KEY = 'e$!^^$+&0=gviz=8f%&z^%q02x9&ztn8mv7n-=&c8$#lfdf09q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'kodachrome.jordan-benner.com'
+]
 
 
 # Application definition
