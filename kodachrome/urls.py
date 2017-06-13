@@ -17,7 +17,7 @@ from django.conf.urls import url
 from django.contrib import admin
 import blog.views
 import homepage.views
-import portfolio.views
+#import portfolio.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -29,7 +29,7 @@ urlpatterns = [
     url(r'^poll/$', blog.views.poll_index, name="poll_index"),
     url(r'^$', homepage.views.homepage, name='homepage'),
     url(r'^favicon.ico$', homepage.views.favicon),
-    url(r'^portfolio/(\S+)/$', portfolio.views.portfolio_index),
-    url(r'^portfolio/(\S+)/$', portfolio.views.results, name="portfolio"),
+    #url(r'^portfolio/(\S+)/$', portfolio.views.portfolio_index),
+    #url(r'^portfolio/(\S+)/$', portfolio.views.results, name="portfolio"),
 
 ]
