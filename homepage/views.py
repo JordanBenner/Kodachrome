@@ -10,3 +10,8 @@ def homepage(request):
 
 def favicon(request):
     return http.HttpResponseRedirect(static('img/favicon.ico'))
+
+
+def portfolio(request):
+    context = {}
+    return TemplateResponse(request, 'portfolio.html', context)
