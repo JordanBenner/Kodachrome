@@ -26,7 +26,8 @@ SECRET_KEY = 'e$!^^$+&0=gviz=8f%&z^%q02x9&ztn8mv7n-=&c8$#lfdf09q'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'kodachrome.jordan-benner.com'
+    'kodachrome.jordan-benner.com',
+    'localhost',
 ]
 
 
