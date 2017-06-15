@@ -23,6 +23,7 @@ def deploy():
 
         with prefix(VENV):
             run('pip install -r requirements.txt  > install.log')
+            run('python manage.py collectstatic')
 
         run('pm2 restart all > restart.log')
 
