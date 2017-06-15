@@ -3,830 +3,277 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
 
-  <title>Erzsbet | Krodochrome</title>
-  <meta name="description" content="Profesional photoghrapy services">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+  <link rel="shortcut icon" href="/static/img/favicon-32x32.png" />
+  <meta name="theme-color" content="#ffffff">
 
+  <title>Erzsebet Kodachrome</title>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{% static " img/apple-touch-icon.png " %}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{% static " img/favicon-32x32.png " %}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{% static " img/favicon-16x16.png " %}">
-  <link rel="shortcut icon" href="{% static " img/favicon-32x32.png " %}"/>
-  <meta name="application-name" content="High-end Coding Services | htmlBoutique" />
-  <meta name="msapplication-TileColor" content="#FFFFFF" />
-  <meta name="msapplication-TileImage" content="mstile-144x144.png" />
-  <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-  <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-  <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-  <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="/css/style.min.css" type="text/css" media="all" />
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-  <!--[if IE 9]>
-	<link rel="stylesheet" href="/css/ie9.css" />
-	<![endif]-->
+  <link rel="stylesheet" href="/static/main.css" />
 
-  <meta property="og:title" content="High-end Coding Services by htmlBoutique" />
-  <meta property="og:description" content="htmlBoutique is a web development agency, focused on long-term partnerships, and specialized in tailor-made Front-end development, WordPress development and Email development." />
-  <meta property="og:image" content="https://htmlboutique.com/css/images/temp/opengraph.jpg" />
-  <meta property="og:url" content="https://htmlboutique.com/" />
 
 </head>
 {% %}
+<!-- NAVBAR
+================================================== -->
+{% block content %}
 
-<body class="page-home">
+<body class='parrallax'>
+  <div class="navbar-wrapper">
+    <div class="container">
 
-
-
-
-  <!-- Google Tag Manager -->
-  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNT4MQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <script type='text/javascript'>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KNT4MQ');
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <div class="wrapper">
-    <div class="container" tabindex="0">
-      <header class="header">
-        <div class="shell">
-          <a title="Portfolio" href="/" class="logo">Erzsbet Kodachrome</a>
-
-          <div class="header-actions">
-            <a title="Request Pricing" href="/request-pricing" class="btn btn-default btn-default-alt btn-default-lg">Get a Quote</a>
-
-            <a title="Navigation" href="#" class="nav-trigger">
-              <span></span>
-
-              <span></span>
-
-              <span></span>
-            </a>
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="#">Erzsbet Kodachrome</a>
           </div>
-          <!-- /.header-actions -->
-        </div>
-        <!-- /.shell -->
-      </header>
-      <!-- /.header -->
-      {% block content %}
-      <div class="intro">
-        <figure class="intro-image" data-hq="/static/css/images/temp/intro.jpg" data-lq="/css/images/temp/intro-lq.jpg"></figure>
-        <!-- /.intro-image -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <div class='pull-right'>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Linked in</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Flickr</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Booking<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolios<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Models</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Upcoming Events</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Publications</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Calander</a></li>
 
-        <div class="intro-content">
-          <div class="shell">
-            <h5 class="title title-lg">Welcome</h5>
-
-            <h1 class="intro-title">Professional<strong>Photography</strong></h1>
-            <!-- /.intro-title -->
-
-            <div class="intro-entry">
-              <p>
-                Ipsum has been the industry's standard dummy text ever since the <br/>more-or-less normal distribution of letters, as opposed to using 'Content here, </p>
+                  </ul>
+                </li>
+              </ul>
             </div>
-            <!-- /.intro-entry -->
           </div>
-          <!-- /.shell -->
-        </div>
-        <!-- /.intro-content -->
+      </nav>
 
-        <div class="intro-actions">
-          <span class="mouse btn-scroll">
-            <span class="mouse-dot"></span>
-          </span>
-        </div>
-        <!-- /.intro-actions -->
       </div>
-      <!-- /.intro -->
-
-      <main class="main">
-        <section class="section-primary section-welcome">
-          <div class="shell extended extended-alt">
-            <div class="section-inner">
-              <h5 class="title title-md">Beliefs</h5>
-              <!-- /.title -->
-
-              <h2>MIt is a long established fact that a reader will be distracted by the</h2>
-
-              <div class="section-entry">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
-                  'Content here, </p>
-              </div>
-              <!-- /.section-entry -->
-            </div>
-            <!-- /.section-inner -->
-          </div>
-          <!-- /.shell -->
-        </section>
-        <!-- /.section -->
-
-        <section class="section-benefits animated animated-left">
-          <div class="shell">
-            <div class="section-content extended">
-              <h5 class="title">Krodachrome</h5>
-              <!-- /.title -->
-
-              <div class="slider slider-benefits">
-                <div class="slider-paging">
-                  <div class="slider-paging-inner"></div>
-                  <!-- /.slider-paging-inner -->
-
-                  <span class="slider-paging-current"></span>
-                </div>
-                <!-- /.slider-paging -->
-
-                <div class="slider-clip">
-                  <ul class="slides">
-                    <li class="slide">
-                      <h3>Quality</h3>
-
-                      <p>rem ipsum' will uncover many web sites still in their infancy.</p>
-
-                      <ul class="list-dashes">
-                        <li>'Content here, content here', making it look like readable English. </li>
-
-                        <li>There are many variations of passages of Lorem Ipsum available, </li>
-
-                        <li>extremely high attention to details</li>
-                      </ul>
-                      <!-- /.list-dashes -->
-                    </li>
-                    <!-- /.slide -->
-
-                    <li class="slide">
-                      <h3>Tailor-made</h3>
-
-                      <p>dummy text ever since the 1500s, when an unknown printer took</p>
-
-                      <ul class="list-dashes">
-                        <li>adapting to your working process</li>
-
-                        <li>following your coding standards</li>
-
-                        <li>project time frame, pre-defined by you</li>
-                      </ul>
-                      <!-- /.list-dashes -->
-                    </li>
-                    <!-- /.slide -->
-
-                    <li class="slide">
-                      <h3>Reliability</h3>
-
-                      <p>Don’t trust WORDS. Trust ACTIONS.</p>
-
-                      <ul class="list-dashes">
-                        <li>dedicated team</li>
-
-                        <li>express updates</li>
-
-                        <li>life-time support</li>
-                      </ul>
-                      <!-- /.list-dashes -->
-                    </li>
-                    <!-- /.slide -->
-
-                    <li class="slide">
-                      <h3>Safety</h3>
-
-                      <p>Safety FIRST. Safety ALWAYS.</p>
-
-                      <ul class="list-dashes">
-                        <li>no upfront payment</li>
-
-                        <li>NDA</li>
-
-                        <li>payment on total satisfaction</li>
-                      </ul>
-                      <!-- /.list-dashes -->
-                    </li>
-                    <!-- /.slide -->
-                  </ul>
-                  <!-- /.slides -->
-                </div>
-                <!-- /.slider-clip -->
-              </div>
-              <!-- /.slider -->
-            </div>
-            <!-- /.section-content -->
-
-            <figure class="section-image">
-              <img src="/css/images/temp/benefits.jpg" alt="Benefits" width="733" height="589">
-            </figure>
-            <!-- /.section-image -->
-          </div>
-          <!-- /.shell -->
-        </section>
-        <!-- /.section -->
-
-        <section class="section-samples animated animated-right">
-          <div class="shell">
-            <div class="section-content extended extended-alt">
-              <div class="section-inner">
-                <h5 class="title">Portfolio</h5>
-                <!-- /.title -->
-
-                <h3>Get an idea of what we do</h3>
-
-                <p>Nothing speaks louder about what we do than our work itself. Experience the makeover of different designs into high-class code. See how the whole process works, check out samples of our actual code, and even get an idea of the pricing.</p>
-              </div>
-              <!-- /.section-inner -->
-
-              <ul class="samples">
-                <li class="sample">
-                  <a title="Photo Booth - PSD to HTML conversion" href="/showcase/view/photo-booth">
-                    <figure class="sample-image">
-                      <img src="css/images/temp/photobooth-thumb-sm.jpg" alt="Photo Booth - PSD to HTML conversion" width="417" height="243">
-                    </figure>
-                    <!-- /.sample-image -->
-
-                    <div class="sample-actions">
-                      <div class="sample-meta">
-                        <i class="fa fa-html5"></i>
-                      </div>
-                      <!-- /.sample-meta -->
-                    </div>
-                    <!-- /.sample-actions -->
-                  </a>
-                </li>
-                <!-- /.sample -->
-
-                <li class="sample">
-                  <a title="Train Station - WordPress integration" href="/showcase/view/train-station">
-                    <figure class="sample-image">
-                      <img src="/css/images/temp/sample1.jpg" alt="Train Station - WordPress integration" width="417" height="243">
-                    </figure>
-                    <!-- /.sample-image -->
-
-                    <div class="sample-actions">
-                      <div class="sample-meta">
-                        <i class="fa fa-wordpress"></i>
-                      </div>
-                      <!-- /.sample-meta -->
-                    </div>
-                    <!-- /.sample-actions -->
-                  </a>
-                </li>
-                <!-- /.sample -->
-
-                <li class="sample">
-                  <a title="Sweet Sensations Bakery - PSD to Email Conversion" href="/showcase/view/sweet-sensations-bakery">
-                    <figure class="sample-image">
-                      <img src="css/images/temp/email-showcase1-thumb.jpg" alt="Sweet Sensations Bakery - PSD to Email Conversion" width="417" height="243">
-                    </figure>
-                    <!-- /.sample-image -->
-
-                    <div class="sample-actions">
-                      <div class="sample-meta">
-                        <i class="fa fa-envelope-o"></i>
-                      </div>
-                      <!-- /.sample-meta -->
-                    </div>
-                    <!-- /.sample-actions -->
-                  </a>
-                </li>
-                <!-- /.sample -->
-
-                <li class="sample">
-                  <a title="" href="/showcase" class="link-more">
-                    <span>View Portfolio</span>
-
-                    <img src="/css/images/temp/sample1.jpg" alt="Unknown sample" width="417" height="243">
-                  </a>
-                </li>
-                <!-- /.sample -->
-              </ul>
-              <!-- /.samples -->
-            </div>
-            <!-- /.section-content -->
-
-            <figure class="section-image">
-              <img src="/css/images/temp/samples.jpg" alt="Samples" width="740" height="893">
-            </figure>
-            <!-- /.section-image -->
-          </div>
-          <!-- /.shell -->
-        </section>
-        <!-- /.section -->
-
-        <section class="section-services">
-          <header class="section-head">
-            <div class="shell">
-              <h5 class="title title-md">Services</h5>
-              <!-- /.title title-md -->
-
-              <h2>BADASSARY</h2>
-
-              <div class="section-entry">
-                <p>versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-              </div>
-              <!-- /.section-entry -->
-            </div>
-            <!-- /.shell -->
-          </header>
-          <!-- /.section-head -->
-
-          <div class="section-body">
-            <div class="shell">
-              <ul class="services">
-                <li class="service animated animated-left">
-                  <div class="service-inner extended">
-                    <h3>MODELING<small>Development</small></h3>
-
-                    <p>It is a long established fact that a reader will b &amp; "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                    <ul class="list-dashes list-dashes-alt">
-                      <li>Modeling Portfolios</li>
-
-                      <li>Fashion</li>
-
-                      <li>Weddings</li>
-                    </ul>
-                    <!-- /.list-dashes -->
-
-                    <div class="service-actions">
-                      <a title="Consulting services" href="/front-end-development" class="btn btn-default btn-alt">
-                        <span class="btn-inner">
-										View All Features
-									</span>
-                      </a>
-                    </div>
-                    <!-- /.service-actions -->
-                  </div>
-                  <!-- /.service-inner -->
-                </li>
-                <!-- /.service -->
-
-                <li class="service service-alt animated animated-left">
-                  <div class="service-inner">
-                    <h3>
-								WordPress
-								<small>Development</small>
-							</h3>
-
-                    <p>Get a perfectly coded &amp; easily manageable responsive WordPress website or plugin, fully customized to your specific needs.</p>
-
-                    <ul class="list-dashes list-dashes-alt">
-                      <li>Coding Standards</li>
-
-                      <li>Intuitive Content Management</li>
-
-                      <li>Secure and Reliable Sites</li>
-                    </ul>
-                    <!-- /.list-dashes -->
-
-                    <div class="service-actions">
-                      <a title="Wordpress development" href="/wordpress-development" class="btn btn-default">View All Features</a>
-                    </div>
-                    <!-- /.service-actions -->
-                  </div>
-                  <!-- /.service-inner -->
-                </li>
-                <!-- /.service -->
-
-                <li class="service animated animated-right">
-                  <div class="service-inner">
-                    <h3>
-								HTML Email
-								<small>Development</small>
-							</h3>
-
-                    <p>Get your email template designs turned into classy and responsive HTML code, compatible with over 40 email clients. </p>
-
-                    <ul class="list-dashes list-dashes-alt">
-                      <li>All browsers/Device compatibility</li>
-
-                      <li>100% hand-coded html5 tags</li>
-
-                      <li>Well-structured markup</li>
-                    </ul>
-                    <!-- /.list-dashes -->
-
-                    <div class="service-actions">
-                      <a title="HTML Email development" href="/email-development" class="btn btn-default btn-alt btn-alt-sec">
-                        <span class="btn-inner">View All Features</span>
-                      </a>
-                    </div>
-                    <!-- /.service-actions -->
-                  </div>
-                  <!-- /.service-inner -->
-                </li>
-                <!-- /.service -->
-              </ul>
-              <!-- /.services -->
-            </div>
-            <!-- /.shell -->
-          </div>
-          <!-- /.section-body -->
-        </section>
-        <!-- /.section -->
-
-        <section class="section-testimonials">
-          <div class="shell">
-            <header class="section-head">
-              <h5 class="title">Happy Clients</h5>
-              <!-- /.title -->
-            </header>
-            <!-- /.section-head -->
-
-            <div class="section-body">
-              <div class="slider slider-testimonials">
-                <div class="slider-clip">
-                  <ul class="slides">
-                    <li class="slide">
-                      <div class="testimonial">
-                        <div class="testimonial-content">
-                          <h3>Dave Waite, <a target="_blank" class="link-public" href="http://zookeeper.com">Zookeeper.com</a></h3>
-
-                          <blockquote>
-                            <p>We’ve had the ultimate good fortune of working with Alex and his team since 2010, building dozens upon dozens of sites. They deliver exactly when they say they will and it’s always pixel-perfect. And if anything is off, it’s
-                              usually updated within 24 hours, often in less time than that. They are truly magicians. They’ve saved our bacon more times than we can count and always make us shine. I’ve traveled to visit them in Varna and you will find
-                              them to be a great group, serious about what they do, friendly and eager for your business to succeed.</p>
-
-                            <p>If you’re looking for world-class developers and programmers, look no further. You’ve found the absolute best.</p>
-                          </blockquote>
-                        </div>
-                        <!-- /.testimonial-content -->
-
-                        <figure class="testimonial-image">
-                          <img src="/css/images/temp/testimonial.jpg" alt="Dave Waite" width="831" height="589">
-                        </figure>
-                        <!-- /.testimonial-image -->
-                      </div>
-                      <!-- /.testimonial -->
-                    </li>
-                    <!-- /.slide -->
-
-                    <li class="slide">
-                      <div class="testimonial">
-                        <div class="testimonial-content">
-                          <h3>Justin Scheetz, <a target="_blank" class="link-public" href="https://boxystudio.com/">Boxy Studio</a></h3>
-
-                          <blockquote>
-                            <p>HTML Boutique has been an integral part of running my WordPress theme and plugin business. Without them doing such great work, I would not be able to bring my ideas and products to life or as close to how I had originally envisioned
-                              them. I have not used another group of developers that just "gets it" as much as they do. Don't bother going anywhere else, I've used several other providers over the past few years and have always come back to HTML Boutique—every
-                              time. Usually to fix the mistakes the "other guys" made. They're just THAT good.</p>
-                          </blockquote>
-                        </div>
-                        <!-- /.testimonial-content -->
-
-                        <figure class="testimonial-image">
-                          <img src="/css/images/temp/testimonial2.jpg" alt="Justin Scheetz" width="831" height="589">
-                        </figure>
-                        <!-- /.testimonial-image -->
-                      </div>
-                      <!-- /.testimonial -->
-                    </li>
-                    <!-- /.slide -->
-                  </ul>
-                  <!-- /.slides -->
-                </div>
-                <!-- /.slider-clip -->
-
-                <div class="slider-paging"></div>
-                <!-- /.slider-paging -->
-              </div>
-              <!-- /.slider -->
-            </div>
-            <!-- /.section-body -->
-          </div>
-          <!-- /.shell -->
-        </section>
-        <!-- /.section -->
-
-        <section class="section-callout">
-          <figure class="section-image">
-            <img src="/css/images/temp/callout.jpg" alt="Our web" width="1663" height="395">
-          </figure>
-          <!-- /.section-image -->
-
-          <div class="section-content">
-            <div class="shell">
-              <h3>
-					<small>This Is Our Web</small>
-
-					Let’s shape it together!
-				</h3>
-
-              <div class="section-actions">
-                <a title="Request Pricing" href="/request-pricing" class="btn btn-default btn-default-alt">Get a Quote</a>
-              </div>
-              <!-- /.section-actions -->
-            </div>
-            <!-- /.shell -->
-          </div>
-          <!-- /.section-content -->
-        </section>
-        <!-- /.section -->
-      </main>
-      <!-- /.main -->
-
-      <footer class="footer">
-        <div class="shell">
-          <p class="copyrights">&copy; htmlBoutique 2008-2017. All Rights Reserved</p>
-          <!-- /.copyrights -->
-
-          <div class="socials">
-            <ul>
-              <li>
-                <a href="https://fb.me/htmlbtq" class="link-public" target="_blank" rel="nofollow">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://twitter.com/htmlBoutique" class="link-public" target="_blank" rel="nofollow">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://plus.google.com/+htmlBoutique" class="link-public" target="_blank" rel="nofollow">
-                  <i class="fa fa-google-plus"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.linkedin.com/company/htmlboutique" class="link-public" target="_blank" rel="nofollow">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.socials -->
-        </div>
-        <!-- /.shell -->
-      </footer>
-      <!-- /.footer -->
     </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+
+          <div class="container">
+            <!-- <img class='amanda2' src='img/amanda2.jpeg'> -->
+            <div class="carousel-caption">
+              <h1 class='slide-1'>Example headline.</h1>
+              <p class='text-muted'>Load in Python3 -m http.server 8000/Erzsebet.html</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Book a Photoshoot Today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class='slide-2'>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class='slide-3'>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
+          <h2>Amanda</h2>
+          <p>Amanda Lightfoot is a Texas based model who loves fantasy and cosplay theme shoots. She's been modeling since 2012 and always enjoys collaborating on new concepts. She is also enjoys making costumes and is a professional makeup artist.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
+          <h2>Taylor</h2>
+          <p>As I write this, it brings up a lot of memories of who I am and where it all started. This also makes me realize, if you have a dream, don't stop pursuing it! You don't stop pursuing what you're doing until you've reached your definition of
+            success. I started modeling in high school, since I live in a small- big town I used the only resource that I knew, Facebook. I looked high and low to find local photographers and model gigs. After getting into modeling I found out more about
+            myself, and my passion, art. Modeling to me was so much more than being the next best “it” girl. I fell in love with creating an emotion in such a simple, or dramatic way. You become everyone's personal vision without even realizing it, or
+            knowing. Today the modeling industry is changing, and may that be for the better! I believe modeling is just like art, you (model) are the canvas and the painters (stylist) create an image of all the supplies (fashion designers) given to them.
+            Thought modeling I have learned to take things as they came, don't pass up anything that doesn't suit the direction of which you're going. At the end of the day being in fashion has shown me what I'm supposed to do in this thing we call, life.
+            I'm now pursuing a degree in business, and fashion design. I have set up and opened a Boutique in San Marcos, TX, walked in a couple fashions ( even though I 5’5!!), and met so many amazing people. One day I would like to open my own clothing
+            line but on a small scale, I believe having a secret clothing line for the people that really try to discover fashion designers deserve it all. Much Love, and passion! -Taylor M. Barrier</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image">
+          <h2>Mia</h2>
+          <p>Mia Isabella is a print and runway model, actress, singer, entrepreneur, and author. Mia has been modeling for three years and is signed with Nelson Fashion Group, in San Antonio, Texas. She has walked in multiple fashion shows in South Texas,
+            and has appeared in commercials, print advertisements, and recently wrapped her first documentary film. She has been published numerous times and was named Model of the Month by SA Monthly Magazine in October 2016. Last year she was awarded
+            a scholarship to the New York Film Academy. Mia often works as a hostess for networking and marketing events, and at high-profile private functions. Mia’s fashion articles have appeared in Texas magazines, and she plans to release her first
+            book later this year. When Mia is not working, she enjoys traveling and expressing her artistic side through painting and drawing. Agent: Lari Nelson, Nelson Fashion Group Social Media:</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-primary">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="/static/img/taylor2.jpg" alt="Fashon Model image" style="border-radius: 15px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-primary">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="/static/img/mia.jpg" alt="Fashon Model image" style='border-radius: 15px'>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-primary">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="/static/img/taylor.jpg" alt="Fashon Model image" style='border-radius: 15px'>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p class='legal'>&copy; Jordan-Benner &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div>
+    {% endblock %}
     <!-- /.container -->
 
 
-    <div class="sidebar">
-      <div class="sidebar-inner">
-        <div class="sidebar-actions">
-          <a href="#" class="link-close">
-            <i class="ico-close"></i>
-          </a>
-        </div>
-        <!-- /.sidebar-actions -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-        <ul class="widgets">
-          <li class="widget widget-nav">
-            <nav class="nav">
-              <ul>
-                <li>
-                  <a title="Home" href="/">Home</a>
-                </li>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-                <li>
-                  <a title="Services" href="/services">
-								Services							</a>
-
-                  <ul>
-
-                    <li>
-                      <a title="Front-End Development" href="/front-end-development">
-											Front-End Development										</a>
-                    </li>
-
-
-                    <li>
-                      <a title="WordPress Development" href="/wordpress-development">
-											WordPress Development										</a>
-                    </li>
-
-
-                    <li>
-                      <a title="Email Development" href="/email-development">
-											Email Development										</a>
-                    </li>
-
-                  </ul>
-                </li>
-
-
-                <li>
-                  <a title="Showcase" href="/showcase">
-								Showcase							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="About" href="/about">
-								About							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="Team" href="/team">
-								Team							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="FAQ" href="/faq">
-								FAQ							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="Blog" href="/blog">
-								Blog							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="Contact" href="/contact">
-								Contact							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="Login" href="/login">
-								Login							</a>
-
-                </li>
-
-
-                <li>
-                  <a title="Get a Quote" href="/request-pricing" class="link-alt">
-								Get a Quote							</a>
-
-                </li>
-
-              </ul>
-            </nav>
-            <!-- /.nav -->
-          </li>
-          <!-- /.widget widget-nav -->
-
-          <li class="widget widget-contact">
-            <ul>
-              <li>
-                <a title="USA: +1 844 808 8962" class="link-public" href="tel:+8327979941"><strong>USA</strong> +832 797 9941</a>
-              </li>
-
-              <li>
-                <a title="UK: +44 203 637 6414" class="link-public" href="tel:+442036376414"><strong>UK</strong> +44 203 637 6414</a>
-              </li>
-            </ul>
-          </li>
-          <!-- /.widget widget-contact -->
-
-          <li class="widget widget-subscribe">
-            <div class="subscribe">
-              <label for="mce-EMAIL">Newsletter</label>
-
-              <p>Subscribe to our mailing list.</p>
-
-              <!-- Begin MailChimp Signup Form -->
-              <div id="mc_embed_signup">
-                <form action="//htmlboutique.us11.list-manage.com/subscribe/post?u=db91be141efc61143a2bbc566&amp;id=887903688d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll">
-                    <input type="email" value="" name="MERGE0" class="subscribe-field email" id="mce-EMAIL" placeholder="your@email.com" required />
-
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-
-                    <div style="position: absolute; left: -5000px;">
-                      <label for="subscribe_field" class="hidden">Subscribe</label>
-                      <input type="text" name="b_db91be141efc61143a2bbc566_443bec35e3" id="subscribe_field" tabindex="-1" value="">
-                    </div>
-
-                    <input type="hidden" name="u" value="db91be141efc61143a2bbc566">
-                    <input type="hidden" name="id" value="443bec35e3">
-                    <button type="submit" class="subscribe-btn button" name="submit" title="Subscribe">
-									<i class="fa fa-send-o"></i>
-								</button>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-            </div>
-            <!-- /.subscribe -->
-          </li>
-          <!-- /.widget widget-subscribe -->
-
-          <li class="widget widget-socials">
-            <div class="socials">
-              <span class="socials-label">we are social</span>
-
-              <ul>
-                <li>
-                  <a href="https://fb.me/htmlbtq" class="link-public" target="_blank" rel="nofollow">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://twitter.com/htmlBoutique" class="link-public" target="_blank" rel="nofollow">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://plus.google.com/+htmlBoutique" class="link-public" target="_blank" rel="nofollow">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://www.linkedin.com/company/htmlboutique" class="link-public" target="_blank" rel="nofollow">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <!-- /.socials -->
-          </li>
-          <!-- /.widget widget-socials -->
-
-          <li class="widget widget-nav-utilities">
-            <nav class="nav-utilities">
-              <ul>
-
-                <li>
-                  <a href="/privacy-policy">
-								Privacy Policy							</a>
-                </li>
-
-
-                <li>
-                  <a href="/terms-and-conditions">
-								Terms and Conditions							</a>
-                </li>
-
-              </ul>
-            </nav>
-            <!-- /.nav -->
-          </li>
-          <!-- /.widget widget-nav-utilities -->
-        </ul>
-        <!-- /.widgets -->
-      </div>
-      <!-- /.sidebar-inner -->
-    </div>
-    <!-- /.sidebar -->
-  </div>
-  <!-- /.wrapper -->
-
-{% endblock %}
-
-  <script type="text/javascript" async>
-    WebFontConfig = {
-      google: {
-        families: ['Roboto+Slab:400,100,300,700:latin', 'Roboto+Mono:400,400italic,100,100italic,300,300italic,500,500italic,700,700italic:latin']
-      }
-    };
-    (function() {
-      var wf = document.createElement('script');
-      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-      wf.type = 'text/javascript';
-      wf.async = 'true';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wf, s);
-    })();
-  </script>
-
-  <script src="/js/htmlboutique.min.js" rel="stylesheet" media="screen" type="text/javascript"></script>
-
-  <script type="text/javascript">
-    window.NREUM || (NREUM = {});
-    NREUM.info = {
-      "beacon": "bam.nr-data.net",
-      "licenseKey": "95344c2266",
-      "applicationID": "9159338",
-      "transactionName": "YFIDYxBYXBFWBhENWVkYNEULFlsMUwAdSkZfRw==",
-      "queueTime": 0,
-      "applicationTime": 0,
-      "atts": "TBUAFVhCTx8=",
-      "errorBeacon": "bam.nr-data.net",
-      "agent": ""
-    }
-  </script>
 </body>
+<!-- Call server html using python
+
+Python3 -m http.server 8000
+
+Type in brower
+Localhost:8000/Erzsebet.html -->
 
 </html>
