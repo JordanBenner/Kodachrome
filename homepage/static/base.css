@@ -29,6 +29,6 @@
 .filler2{
   padding-top: 60px;
 }
-.featurette-heading > div{
-  padding-left: 45px;
+.featurette-heading p.lead {
+  padding-left: 85px;
 }
