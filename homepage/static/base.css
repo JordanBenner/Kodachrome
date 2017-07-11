@@ -3,20 +3,17 @@
 }
 
 .row2 {
-  opacity: 0.9;
-  background-color: #7f8a89;
+  background-color: rgba(0, 0, 0, .9);
 }
 .row5{
-  opacity: 0.9;
-  background-color: #6fa5a2;
+  background-color: rgba(127, 138, 137, .9);
+
 }
 .row6{
-  opacity: 0.9;
-  background-color: #7f8a89;
+  background-color: rgba(0, 0, 0, .9);
 }
 .row7{
-  opacity: 0.9;
-  background-color: #6fa5a2;
+    background-color: rgba(127, 138, 137, .9);
 
 }
 .carousel{

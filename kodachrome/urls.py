@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^poll/(\S+)/$', blog.views.results, name="poll"),
     url(r'^poll/$', blog.views.poll_index, name="poll_index"),
     url(r'^$', homepage.views.homepage, name='homepage'),
+    url(r'^p$', homepage.views.portfolio, name='portfolio'),
     url(r'^favicon.ico$', homepage.views.favicon),
     #url(r'^portfolio/(\S+)/$', portfolio.views.portfolio_index),
     #url(r'^portfolio/(\S+)/$', portfolio.views.results, name="portfolio"),
