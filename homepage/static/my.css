@@ -1,0 +1,37 @@
+.img{
+  padding-top: 60px;
+}
+
+.row2 {
+  opacity: 0.9;
+  background-color: #7f8a89;
+}
+.row5{
+  opacity: 0.9;
+  background-color: #6fa5a2;
+}
+.row6{
+  opacity: 0.9;
+  background-color: #7f8a89;
+}
+.row7{
+  opacity: 0.9;
+  background-color: #6fa5a2;
+
+}
+.carousel{
+  margin:0;
+}
+
+.taylor{
+  padding-top: 60px;
+}
+.filler{
+  padding-top: 60px;
+}
+.filler2{
+  padding-top: 60px;
+}
+.featurette-heading > div{
+  padding-left: 45px;
+}
