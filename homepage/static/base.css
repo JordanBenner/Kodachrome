@@ -32,3 +32,33 @@
 .featurette-heading p.lead {
   padding-left: 85px;
 }
+
+.extrapad {
+  padding: 50px;
+}
+
+.extrapad h2 {
+  padding-bottom: 30px;
+}
+
+
+.socials-bottom {
+    font-family: 'Roboto Mono', sans-serif;
+    text-transform: uppercase;
+    display: block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.socials-bottom ul {
+  text-align: center;
+}
+
+.socials-bottom li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}

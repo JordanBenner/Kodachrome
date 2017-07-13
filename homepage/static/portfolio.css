@@ -1,0 +1,10 @@
+.parrallax{
+background-image: url('/static/church.png');
+/* Full Height */
+height: 100%;
+/*Create the scrolling effect*/
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

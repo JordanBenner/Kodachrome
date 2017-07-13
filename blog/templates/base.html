@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="{% static "main.css" %}" />
   <link rel="stylesheet" href="{% static "base.css" %}" />
   <link rel="stylesheet" href="{% static "media.css" %}" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   {% block extra_css %}{% endblock %}
 
 
@@ -71,7 +72,6 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Booking<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Prices</a></li>
-                    <li><a href="#">Locations</a></li>
                     <li><a href="#">Upcoming Events</a></li>
                     <li role="separator" class="divider"></li>
                     <li class="dropdown-header">Nav header</li>
@@ -210,8 +210,8 @@
 
       <!-- START THE FEATURETTES -->
 
-      <div class="row5 row">
-        <div class="col-md-7">
+      <div class="row5 row extrapad" >
+        <div class="col-md-7 ">
           <h2 class="featurette-heading">First featurette heading. <span class="text-primary">It'll blow your mind.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
@@ -219,7 +219,7 @@
           <img class="featurette-image img-responsive center-block" src="{% static "img/taylor2.jpg" %}" alt="Fashon Model image" style="border-radius: 15px">
         </div>
       </div>
-      <div class="row6 row">
+      <div class="row6 row extrapad">
         <div class="col-md-7 col-md-push-5">
           <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-primary">See for yourself.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -228,7 +228,7 @@
           <img class="featurette-image img-responsive center-block" src="{% static "img/mia.jpg" %}" alt="Fashon Model image" style='border-radius: 15px'>
         </div>
       </div>
-      <div class="row7 row">
+      <div class="row7 row extrapad">
         <div class="col-md-7">
           <h2 class="featurette-heading">And lastly, this one. <span class="text-primary">Checkmate.</span></h2>
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -237,13 +237,40 @@
           <img class="featurette-image img-responsive center-block" src="{% static "img/taylor.jpg" %}" alt="Fashon Model image" style='border-radius: 15px'>
         </div>
       </div>
-
       <!-- /END THE FEATURETTES -->
       {% endblock %}
 
 
       <!-- FOOTER -->
       <footer>
+        <div class="socials-bottom">
+                <span class="socials-label-bottom"></span>
+
+                <ul>
+                  <li>
+                    <a href="https://www.facebook.com/jordan.benner.88" class="link-public" target="_blank" rel="nofollow">
+                      <i class="fa fa-facebook fa-3x"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://twitter.com/JordanPBenner" class="link-public" target="_blank" rel="nofollow">
+                      <i class="fa fa-twitter fa-3x"></i>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.linkedin.com/in/jordan-benner/" class="link-public" target="_blank" rel="nofollow">
+                      <i class="fa fa-linkedin fa-3x"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/JordanBenner" class="link-public" target="_blank" rel="nofollow">
+                      <i class="fa fa-github fa-3x"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p class='legal'>&copy; Jordan-Benner &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
