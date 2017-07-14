@@ -32,3 +32,4 @@ Built in Django, Python, Javascript, CSS and HTML.
 1. ~~Responsive Design~~
 1. Set spacing for grid layout and impliment lightbox
 1. Picture Sizes
+1. Hook up photoshelter API
