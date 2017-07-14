@@ -22,14 +22,14 @@ Built in Django, Python, Javascript, CSS and HTML.
 * Enjoy Prints
 
 ## MVP
-- [ ] read.me, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
+- [ ] make a read.me file
+- [ ] add #refs, links to portfolio view
 - [ ] hook up photoshelter
-- [ ] design picture grid display layout
+- [ ] design picture grid display and  layout
 
 ## Stretch Goals:
 
-1. ~~Responsive Design~~
-1. Set spacing for grid layout and impliment lightbox
+1. Responsive Design
+1. Set spacing for grid layout and implement light-box functionality
 1. Picture Sizes
 1. Hook up photoshelter API
