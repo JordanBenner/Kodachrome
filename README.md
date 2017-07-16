@@ -22,14 +22,14 @@ Built in Django, Python, Javascript, CSS and HTML.
 * Enjoy Prints
 
 ## MVP
-- [ ] make a read.me file
-- [ ] add #refs, links to portfolio view
-- [ ] hook up photoshelter
+- [x] make a read.me file
+- [x] add #refs, links to portfolio view
+- [x] hook up photoshelter
 - [ ] design picture grid display and  layout
 
 ## Stretch Goals:
 
-1. Responsive Design
+1. ~~Responsive Design~~
 1. Set spacing for grid layout and implement light-box functionality
 1. Picture Sizes
 1. Hook up photoshelter API
