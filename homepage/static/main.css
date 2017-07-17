@@ -62,6 +62,18 @@ body {
   background-image: url(/static/img/emily1.jpg);
   background-position-y: -104px;
 }
+.carousel .item:nth-child(3) {
+  background-image: url(/static/img/c1.jpg);
+  background-position-y: -104px;
+}
+.carousel .item:nth-child(4) {
+  background-image: url(/static/img/c4.jpg);
+  background-position-y: -104px;
+}
+.carousel .item:nth-child(5) {
+  background-image: url(/static/img/c5.jpg);
+  background-position-y: -104px;
+}
 
 .carousel .item:nth-child(2) {
   background-image: url(/static/img/taylor1.jpg);
@@ -69,7 +81,7 @@ body {
 }
 
 .carousel .item:last-child {
-  background-image: url(/static/img/amanda1.jpg);
+  background-image: url(/static/img/c2.jpg);
   background-position-y: -110px;
 }
 
