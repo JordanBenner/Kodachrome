@@ -12,11 +12,105 @@
 
 @media (max-width: 992px){
   .filler{
-      padding: 20px 20px 100px 300px;
+      padding: 20px 0 100px 0;
   }
 }
 @media (max-width: 1200px){
   .filler{
     padding-top: 155px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel .item:first-child {
+    background-position-y: -22px;
+  }
+  .carousel .item:nth-child(3) {
+    background-position-y: -140px;
+  }
+  .carousel .item:nth-child(4) {
+    background-position-y: -60px;
+  }
+  .carousel .item:nth-child(5) {
+    background-position-y: -104px;
+  }
+
+  .carousel .item:nth-child(2) {
+    background-position-y: -104px;
+  }
+
+  .carousel .item:last-child {
+    background-position-y: -225px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel .item:first-child {
+    background-position-y: -22px;
+  }
+  .carousel .item:nth-child(3) {
+    background-position-y: -140px;
+  }
+  .carousel .item:nth-child(4) {
+    background-position-y: -60px;
+  }
+  .carousel .item:nth-child(5) {
+    background-position-y: -104px;
+  }
+
+  .carousel .item:nth-child(2) {
+    background-position-y: -16px;
+  }
+
+  .carousel .item:last-child {
+    background-position-y: -225px;
+  }
+}
+
+@media (min-width: 600px) {
+  .carousel .item:first-child {
+
+  }
+  .carousel .item:nth-child(3) {
+    background-position-y: 50px;
+  }
+  .carousel .item:nth-child(4) {
+    background-position-y: 51px;
+    
+  }
+  .carousel .item:nth-child(5) {
+    background-position-y: 51px;
+  }
+
+  .carousel .item:nth-child(2) {}
+
+  .carousel .item:last-child {
+    background-position-y: -37px;
+  }
+}
+
+@media (max-width: 550px) {
+  .carousel .item:first-child {
+    background-position-y: 25px;
+    background-position-x: -140px;
+  }
+  .carousel .item:nth-child(3) {
+    background-position-y: 50px;
+  }
+  .carousel .item:nth-child(4) {
+    background-position-y: 51px;
+    background-position-x: -152px;
+  }
+  .carousel .item:nth-child(5) {
+    background-position-y: 51px;
+  }
+
+  .carousel .item:nth-child(2) {
+      background-position-y: 51px;
+      background-position-x: 10px;
+  }
+
+  .carousel .item:last-child {
+    background-position-y: -37px;
   }
 }

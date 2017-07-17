@@ -35,7 +35,8 @@
 ================================================== -->
 
 <body class='parrallax'>
-  <div class="navbar-wrapper">
+  <div class="">
+    <div class="navbar-wrapper">
     <div class="container">
 
       <nav class="navbar navbar-inverse navbar-static-top">
@@ -100,7 +101,8 @@
     {% block content %}
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="limiter">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -185,6 +187,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </div>
     <!-- /.carousel -->
 
 
@@ -205,9 +208,9 @@
           <h2>Behind the Camera</h2>
 
           <p id="mcol1">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
-            a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,
-            discovered the undoubtable source.
+            My shooting style is different than most in the sense of manipulating ambient light without the use of any built-in or external flash or strobes. I prefer naturally filtering my light through my lens to keep my work as natural and organic as possible and
+            focus on soft surface editing techniques that enhance the picture not alter it or deflect from what has already been captured with over editing and airbrushing. I also specialize in shooting in a monochrome format that I use to exude the natural emotion of the subject.
+
           </p>
           <!-- <p id="mcol1">As I write this, it brings up a lot of memories of who I am and where it all started. This also makes me realize, if you have a dream, don't stop pursuing it!
             You don't stop pursuing what you're doing until you've reached your definition of success. I started modeling in high school, since I live in a small-big town I used the only resource that I knew, Facebook.
@@ -336,7 +339,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src='{% static "base.js" %}'></script>
 
-
+  </div>
 </body>
 <!-- Call server html using python
 

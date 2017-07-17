@@ -1,3 +1,12 @@
+.limiter {
+  background-color: black;
+}
+
+.limiter > div {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
 .img{
   padding-top: 60px;
 }
@@ -5,6 +14,11 @@
 .row2 {
   background-color: rgba(0, 0, 0, .9);
 }
+
+.row2 > div:nth-child(2) {
+  text-align: center;
+}
+
 .row5{
   background-color: rgba(127, 138, 137, .9);
 
@@ -76,4 +90,5 @@ ul .nav .navbr-nav{
   font-weight: 300;
   line-height: 1.4;
   font-size: 20px;
+  text-align: center;
 }

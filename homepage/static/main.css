@@ -56,33 +56,29 @@ body {
   background-color: #777;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: center;
 }
 
 .carousel .item:first-child {
   background-image: url(/static/img/emily1.jpg);
-  background-position-y: -104px;
 }
 .carousel .item:nth-child(3) {
   background-image: url(/static/img/c1.jpg);
-  background-position-y: -104px;
 }
 .carousel .item:nth-child(4) {
   background-image: url(/static/img/c4.jpg);
-  background-position-y: -104px;
 }
 .carousel .item:nth-child(5) {
   background-image: url(/static/img/c5.jpg);
-  background-position-y: -104px;
 }
 
 .carousel .item:nth-child(2) {
   background-image: url(/static/img/taylor1.jpg);
-  background-position-y: -163px;
 }
 
 .carousel .item:last-child {
   background-image: url(/static/img/c2.jpg);
-  background-position-y: -110px;
+  background-position-y: -150px;
 }
 
 .carousel-inner>.item>img {
