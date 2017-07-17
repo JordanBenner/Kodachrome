@@ -23,14 +23,13 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/(\S+)/(\S+)/$', blog.views.blog_post),
     url(r'^blog/(\S+)/$', blog.views.blog_index),
-
     url(r'^poll/(\S+)/vote/(\d+)/$', blog.views.vote, name="vote"),
     url(r'^poll/(\S+)/$', blog.views.results, name="poll"),
     url(r'^poll/$', blog.views.poll_index, name="poll_index"),
     url(r'^$', homepage.views.homepage, name='homepage'),
     url(r'^p$', homepage.views.portfolio, name='portfolio'),
     url(r'^favicon.ico$', homepage.views.favicon),
-    #url(r'^portfolio/(\S+)/$', portfolio.views.portfolio_index),
+    url(r'^pricing/(\S+)/$', prices.views.prices_index),
     #url(r'^portfolio/(\S+)/$', portfolio.views.results, name="portfolio"),
 
 ]

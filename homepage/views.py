@@ -15,3 +15,8 @@ def favicon(request):
 def portfolio(request):
     context = {}
     return TemplateResponse(request, 'portfolio.html', context)
+
+
+# def pricing(request):
+#     context = {}
+#     return TemplateResponse(request, 'portfolio.html', context)
