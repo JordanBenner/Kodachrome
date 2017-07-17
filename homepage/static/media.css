@@ -21,12 +21,12 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .carousel .item:first-child {
     background-position-y: -22px;
   }
   .carousel .item:nth-child(3) {
-    background-position-y: -140px;
+
   }
   .carousel .item:nth-child(4) {
     background-position-y: -60px;
@@ -36,15 +36,15 @@
   }
 
   .carousel .item:nth-child(2) {
-    background-position-y: -104px;
+
   }
 
   .carousel .item:last-child {
-    background-position-y: -225px;
+    background-position-y: -365px;
   }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .carousel .item:first-child {
     background-position-y: -22px;
   }
@@ -67,16 +67,16 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .carousel .item:first-child {
 
   }
   .carousel .item:nth-child(3) {
-    background-position-y: 50px;
+    background-position-y: -3px;
   }
   .carousel .item:nth-child(4) {
     background-position-y: 51px;
-    
+
   }
   .carousel .item:nth-child(5) {
     background-position-y: 51px;
@@ -91,15 +91,16 @@
 
 @media (max-width: 550px) {
   .carousel .item:first-child {
-    background-position-y: 25px;
-    background-position-x: -140px;
+    /*background-position-y: 25px;
+    background-position-x: -140px;*/
+    background-position: center;
   }
   .carousel .item:nth-child(3) {
     background-position-y: 50px;
   }
   .carousel .item:nth-child(4) {
     background-position-y: 51px;
-    background-position-x: -152px;
+    background-position-x: -376px;
   }
   .carousel .item:nth-child(5) {
     background-position-y: 51px;
