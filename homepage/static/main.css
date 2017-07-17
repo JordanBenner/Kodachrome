@@ -104,6 +104,9 @@ body {
   font-weight: normal;
   color: white;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
 }
 
 .marketing .col-lg-4 p {

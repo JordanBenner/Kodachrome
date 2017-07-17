@@ -3,3 +3,9 @@
     padding: 10px 0 10px 0;
   }
 }
+
+@media (max-width: 992px){
+  .lead{
+    padding-bottom: 60px;
+  }
+}
