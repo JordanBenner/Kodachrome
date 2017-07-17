@@ -24,8 +24,9 @@
   padding-top: 60px;
 }
 .filler{
-  padding-top: 150px;
-  padding-left: 200px;
+  /*padding-top: 150px;
+  padding-left: 200px;*/
+  padding: 150px 50px 50px 200px;
 }
 .filler2{
   padding-top: 60px;

@@ -202,6 +202,7 @@ font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, seri
   background-image: url('/static/img/bg1.jpg');
   /* Full Height */
   height: 100%;
+  width: 100%;
   /*Create the scrolling effect*/
   background-attachment: fixed;
   background-position: center;
