@@ -25,7 +25,7 @@ Built in Django, Python, Javascript, CSS and HTML.
 - [x] make a read.me file
 - [x] add #refs, links to portfolio view
 - [x] hook up photoshelter
-- [ ] design picture grid display and  layout
+- [ ] set up ssh
 
 ## Stretch Goals:
 
@@ -33,3 +33,4 @@ Built in Django, Python, Javascript, CSS and HTML.
 1. Set spacing for grid layout and implement light-box functionality
 1. Picture Sizes
 1. Hook up photoshelter API
+1. design picture grid display and  layout
