@@ -6746,7 +6746,9 @@ input:-webkit-autofill {
 }
 
 .nav ul {
-    list-style: none outside none
+    list-style: none outside none;
+    background-color: black;
+    color: #fff;
 }
 
 .nav>ul>li:last-child a {
