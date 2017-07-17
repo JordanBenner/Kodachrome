@@ -43,7 +43,7 @@
 
 
 .socials-bottom {
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
     text-transform: uppercase;
     display: block;
     vertical-align: middle;
@@ -61,4 +61,8 @@
   display: inline-block;
   padding: 20px;
   color: white;
+}
+
+ul .nav .navbr-nav !important{
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
