@@ -6764,8 +6764,9 @@ input:-webkit-autofill {
     padding: 20px 0;
     text-transform: uppercase;
     display: block;
-    font-family: 'Roboto Mono',sans-serif;
-    transition: color .3s
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: grey !important;
+    transition: color .3s;
 }
 
 .nav li:hover {
