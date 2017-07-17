@@ -29,7 +29,7 @@ urlpatterns = [
     url(r'^$', homepage.views.homepage, name='homepage'),
     url(r'^p$', homepage.views.portfolio, name='portfolio'),
     url(r'^favicon.ico$', homepage.views.favicon),
-    url(r'^pricing/(\S+)/$', prices.views.prices_index),
+    # url(r'^pricing/(\S+)/$', prices.views.prices_index),
     #url(r'^portfolio/(\S+)/$', portfolio.views.results, name="portfolio"),
 
 ]
