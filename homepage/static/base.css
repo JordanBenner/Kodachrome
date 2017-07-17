@@ -92,3 +92,7 @@ ul .nav .navbr-nav{
   font-size: 20px;
   text-align: center;
 }
+
+.text-primary {
+    color: #c7ae7a !important;
+  }
