@@ -107,3 +107,7 @@ ul .nav .navbr-nav{
     color: white;
     text-align: center;
   }
+
+   a:hover {
+      color: #e0e3e6;
+   }
