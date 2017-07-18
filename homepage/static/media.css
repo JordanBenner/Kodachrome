@@ -36,7 +36,6 @@
   }
 
   .carousel .item:nth-child(2) {
-
   }
 
   .carousel .item:last-child {
@@ -76,13 +75,14 @@
   }
   .carousel .item:nth-child(4) {
     background-position-y: 51px;
-
   }
   .carousel .item:nth-child(5) {
     background-position-y: 51px;
   }
 
-  .carousel .item:nth-child(2) {}
+  .carousel .item:nth-child(2) {
+
+  }
 
   .carousel .item:last-child {
     background-position-y: -37px;
@@ -91,8 +91,6 @@
 
 @media (max-width: 550px) {
   .carousel .item:first-child {
-    /*background-position-y: 25px;
-    background-position-x: -140px;*/
     background-position: center;
   }
   .carousel .item:nth-child(3) {
