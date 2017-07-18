@@ -25,7 +25,8 @@ Built in Django, Python, Javascript, CSS and HTML.
 - [x] make a read.me file
 - [x] add #refs, links to portfolio view
 - [x] hook up photoshelter
-- [ ] set up ssh
+- [x] set up ssh
+- [ ] set up a form 
 
 ## Stretch Goals:
 
