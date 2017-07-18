@@ -9,17 +9,17 @@ Let your imagination take root contact Kodachrome for your booking and photograp
 
 ## Built With:
 
-Built in Django, Python, Javascript, CSS and HTML.
+Built in Django, Python, Javascript, CSS and HTML, Using photoshelter a databse cms system.
 
-## Browse Portfolio Pictures
+## Browse & Purchase Portfolio Pictures
 
 * Go to https://www.erzsebetkodachrome.com/p
-* Find the picture you are interested in>
+* Find the picture you are interested in; select image.
 * Said image will have size options select prefered size.
 * Photoshelter will promt the user for secure payment options
 * You should receive a confirmation email shortly thereafter
 * Click on the confirmation link in your email
-* Enjoy Prints
+* Enjoy downloadable prints
 
 ## MVP
 - [x] make a read.me file
