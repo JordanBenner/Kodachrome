@@ -158,7 +158,9 @@ font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, seri
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 .legal {
-  color: #337ab7;
+  color: #c7ae7a;
+  text-align: center;
+  padding-left: 63px;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -266,7 +268,7 @@ font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, seri
 
 .fa-3x {
     font-size: 3em;
-    color: #337ab7;
+    color: #c7ae7a;
 }
 
 .fa-4x {
@@ -3326,7 +3328,8 @@ font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, seri
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,main {
-    display: block
+    display: block;
+    color: #c7ae7a;
 }
 
 html,body {
@@ -3697,7 +3700,7 @@ h1[class],h2[class],h3[class],h4[class],h5[class],h6[class],h1:last-child,h2:las
     position: relative;
     padding: 30px 0 11px;
     font-size: 14px;
-    color: #7f7f7f
+    color: #7f7f7f;
 }
 
 .footer .copyrights {
