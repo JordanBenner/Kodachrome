@@ -41,7 +41,8 @@
   padding: 100px 50px 90px 0;
 }
 .filler2{
-  padding-top: 60px;
+    padding: 60px 60px 60px 60px;
+    margin-left: 151px;
 }
 .featurette-heading p.lead {
   padding-left: 85px;
