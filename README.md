@@ -26,12 +26,12 @@ Built in Django, Python, Javascript, CSS and HTML, Using photoshelter a databse 
 - [x] add #refs, links to portfolio view
 - [x] hook up photoshelter
 - [x] set up ssh
-- [ ] set up a form 
+- [x] set up a form 
 
 ## Stretch Goals:
 
 1. ~~Responsive Design~~
 1. Set spacing for grid layout and implement light-box functionality
-1. Picture Sizes
+1. ~~Picture Sizes~~
 1. Hook up photoshelter API
-1. design picture grid display and  layout
+1. ~~design picture grid display and layout~~
