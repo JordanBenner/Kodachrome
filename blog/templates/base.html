@@ -19,8 +19,7 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-  <!-- Optional theme -->
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="{% static "main.css" %}" />
@@ -195,7 +194,7 @@
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Wrapped the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
 
@@ -213,7 +212,6 @@
             direction that they want to go.
           </p>
         </div>
-        <!-- /.col-lg-4 -->
         <div class="col-lg-6 col-sm-12">
           <img class="filler" src="{% static "img/auth.jpg" %}" alt="Generic placeholder image">
         </div>
@@ -267,7 +265,6 @@
         <div class="col-lg-12 col-sm-12">
           <div class="col-lg-6 col-sm-12">
             <img class="filler2" src="{% static "img/kamheadshot.jpg" %}" alt="Generic placeholder image">
-
           </div>
           <h2 class='shooting'>Shooting Style</h2>
           <p id="mcol1">
@@ -275,10 +272,7 @@
             focus on soft surface editing techniques that enhance the picture not alter it or deflect from what has already been captured with over editing and airbrushing. I also specialize in shooting in a monochrome format that I use to exude the natural emotion of the subject.
           </p>
         </div>
-
-
-
-        </div>
+      </div>
       <!-- /END THE FEATURETTES -->
       {% endblock %}
 
@@ -333,12 +327,7 @@
 
     </div>
     <!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -353,5 +342,4 @@
 </body>
 <!-- Call server html using python
 
-Python3 -m http.server 8000
-</html>
+./manage.py runserver 0.0.0.0:8000</html>
