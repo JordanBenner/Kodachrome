@@ -9,7 +9,7 @@ Let your imagination take root contact Kodachrome for your booking and photograp
 
 ## Built With:
 
-Built in Django, Python, Javascript, CSS and HTML, Using photoshelter a databse cms system.
+Built in Django, Python, Javascript, jQuery, CSS and HTML, Using photoshelter a databse cms system.
 
 ## Browse & Purchase Portfolio Pictures
 
