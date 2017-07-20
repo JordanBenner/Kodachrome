@@ -4,7 +4,7 @@
 
 ## Description
 
-Kodachrome is a photography website based on an ecommerce platform that allows its users to book photo shoots and purchase pictures. Kodoachrome implements the ability to send pictures (and the usernames associated with the pictures) directly into Photoshelter servers, quickly being integrated into a database. The Stripe API allows payments to be sent, received and aggregate data in easily usable JSON.
+Erzsebet Kodachrome is a photography website based on an ecommerce platform that allows its users to book photo shoots and purchase pictures. Kodoachrome implements the ability to send pictures (and the usernames associated with the pictures) directly into Photoshelter servers, quickly being integrated into a database. The Stripe API allows payments to be sent, received and aggregate data in easily usable JSON.
 Let your imagination take root contact Kodachrome for your booking and photography needs. Users can use Kodachrome to avoid the hassles in finding a professional photographer in a world that considers everyone a photographer. 
 
 ## Built With:
