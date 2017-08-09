@@ -69,7 +69,7 @@ body {
   background-image: url(/static/img/c4.jpg);
 }
 .carousel .item:nth-child(5) {
-  background-image: url(/static/img/c5.jpg);
+  background-image: url(/static/img/daniel.jpg);
 }
 
 .carousel .item:nth-child(2) {
@@ -12066,7 +12066,7 @@ input:-webkit-autofill {
     }
 
     .slider-values .slide {
-        padding: 70px 
+        padding: 70px 0
     }
 
     .section-faq .cols {
