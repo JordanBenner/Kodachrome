@@ -118,7 +118,7 @@
 
   .carousel .item:nth-child(2) {
       background-position-y: 51px;
-      background-position-x: 10px;
+      background-position-x: -208px;
   }
 
   .carousel .item:last-child {
