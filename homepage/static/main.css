@@ -77,7 +77,7 @@ body {
 }
 
 .carousel .item:last-child {
-  background-image: url(/static/img/c2.jpg);
+  background-image: url(/static/img/girl1.jpg);
   background-position-y: -150px;
 }
 
