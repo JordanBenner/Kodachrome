@@ -70,6 +70,7 @@ body {
 }
 .carousel .item:nth-child(5) {
   background-image: url(/static/img/daniel.jpg);
+  background-position-y: -65px;
 }
 
 .carousel .item:nth-child(2) {
