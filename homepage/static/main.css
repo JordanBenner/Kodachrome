@@ -66,7 +66,7 @@ body {
   background-image: url(/static/img/emily1.jpg);
 }
 .carousel .item:nth-child(4) {
-  background-image: url(/static/img/c4.jpg);
+  background-image: url(/static/img/beach.jpg);
 }
 .carousel .item:nth-child(5) {
   background-image: url(/static/img/daniel.jpg);
